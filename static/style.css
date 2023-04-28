@@ -1,18 +1,15 @@
+/* Default styles */
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: hsl(212, 45%, 89%)
-    /* display: flex;
-    justify-content: center; */
-
+    background-color: hsl(212, 45%, 89%);
 }
 
 h1, h2, h3 {
     font-family: 'Outfit', sans-serif;
     color: hsl(218, 44%, 22%);
     margin: 20px 10px;
-    
 }
 
 p {
@@ -52,4 +49,17 @@ img {
 
 .attribution > p {
     font-family: 'Outfit', sans-serif;
+}
+
+/* Media queries */
+@media only screen and (max-width: 768px) {
+    #card {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #card {
+        width: 70%;
+    }
 }
